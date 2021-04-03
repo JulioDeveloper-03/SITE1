@@ -1,0 +1,84 @@
+*{
+   box-sizing: border-box;
+}
+body{
+    margin: 0; font-family: 'Roboto'; background-color: gray;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px; color: #fff; text-transform: uppercase;
+    font-size: 14px; background-color: rgba(128, 128, 128, 0.623);
+    border: 1px solid #fff;
+}
+nav li{
+    display: inline-block; margin: 0 10px;
+}
+nav ul{
+    text-align: right;
+}
+nav{
+    margin-bottom: 150px;
+}
+.hero-content{
+    text-align: center;
+    color: #fff;
+}
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 50px; text-shadow: 2px 2px gray;
+}
+.hero-content p{
+    background-color: rgba(128, 128, 128, 0.623);
+    width: 240px; margin: 0 auto; padding: 5px 0;
+    border-bottom: 1px solid #fff;
+}
+header{
+    background-image:url(../imagens/bg-3.jpg);
+    background-repeat: no-repeat; background-size: cover;
+    height: 500px; padding: 10px;
+}
+main{
+    background-color: gray; 
+}
+.central{
+    width: 90%; margin: 0 auto;
+}
+.card{
+    width: 32%; float: left;
+}
+.card:nth-child(1){
+    margin-right: 2%;
+}
+.card:nth-child(2){
+    margin-right: 2%;
+}
+.clearflix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+section{
+    background-color: #fff; margin: 10px 0;
+}
+img{
+    width: 100%; display: block;
+}
+.content-section{
+    padding: 8px; 
+}
+.content-section h2{
+    margin-top: 0; padding: 5px; background-color: gainsboro;
+    font-size: 18px; border-bottom: 1px solid gray;
+}
+
+.card-section{
+    padding: 8px;
+}
+.card-section p{
+    margin: 0; padding: 10px 5px; text-transform: uppercase; font-size: 14px;
+    color: #FFF; background-color: rgb(87, 79, 79); letter-spacing: 3px;
+}
+.rodape{
+    text-align: center; background-color: rgb(87, 79, 79);
+     color: white; padding: 10px;
+}
